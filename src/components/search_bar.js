@@ -10,7 +10,8 @@ class SearchBar extends Component {
     render() {
         return (
             <div className="search-bar">
-                <input
+                <h2>ReactTube</h2>
+                <input placeholder="Search for videos"
                     value={this.state.term}
                     onChange={event => this.onInputChange(event.target.value)} />
             </div>

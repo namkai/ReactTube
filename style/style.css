@@ -1,6 +1,18 @@
+h2{
+    color: #00d8ff !important;
+}
+body {
+    background-color: #222 !important;
+    color: #00d8ff !important;
+}
+
+.media-body {
+    color: #00d8ff !important;
+}
 .search-bar {
     margin: 20px;
-    text-align: center;
+    width: 84.7%;
+    text-align: left;
 }
 
 .search-bar input {
@@ -20,8 +32,10 @@
 
 .list-group-item {
     cursor: pointer;
+    background-color: #222 !important;
+    border: 1px solid #00d8ff !important;
 }
 
 .list-group-item:hover {
-    background-color: #eee;
+    background-color: grey !important;
 }
